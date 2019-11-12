@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray1"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".AddNewFood">
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/categoryId"
+        android:background="@drawable/edit_text_round"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Category Name"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/newItemNameId"
+        android:background="@drawable/edit_text_round"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Item Name"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/newItemPriceId"
+        android:background="@drawable/edit_text_round"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Item Price"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/addButoonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_round_blue"
+        android:textColor="@color/textColor"
+        />
+
+</LinearLayout>

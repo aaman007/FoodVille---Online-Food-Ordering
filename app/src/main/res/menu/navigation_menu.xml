@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/accountId"
+        android:title="My Account"
+        android:icon="@drawable/ic_account"
+        />
+    <item
+        android:id="@+id/cartMenuId"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="Cart"
+        />
+    <item
+        android:id="@+id/settingMenuId"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        />
+    <item
+        android:id="@+id/shareMenuId"
+        android:icon="@drawable/ic_share_black"
+        android:title="Share"
+        />
+    <item
+        android:id="@+id/logOutMenuId"
+        android:icon="@drawable/alert"
+        android:title="Log Out"
+        />
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/feedbackId"
+                android:title="Feedback"
+                android:icon="@drawable/ic_feedback"
+                />
+            <item
+                android:id="@+id/aboutUsId"
+                android:title="About Us"
+                android:icon="@drawable/ic_info"
+                />
+            <item
+                android:id="@+id/callMenuId"
+                android:title="Call Us"
+                android:icon="@drawable/ic_call_black_24dp"
+                />
+        </menu>
+    </item>
+
+</menu>

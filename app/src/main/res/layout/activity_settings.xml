@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <!-- Logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/logoID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FoodVille"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <!-- Old Password -->
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:weightSum="7"
+        android:layout_height="35dp">
+        <TextView
+            android:gravity="center|left"
+            android:layout_weight="2.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Old Password : "
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            />
+        <EditText
+            android:focusable="false"
+            android:inputType="textPassword"
+            android:id="@+id/oldPasswordId"
+            android:layout_weight="4.8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:background="@drawable/edit_text_round"
+            />
+    </LinearLayout>
+
+    <!-- New Password -->
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:weightSum="7"
+        android:layout_height="35dp">
+        <TextView
+            android:gravity="center|left"
+            android:layout_weight="2.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="New Password : "
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            />
+        <EditText
+            android:focusable="false"
+            android:inputType="textPassword"
+            android:id="@+id/newPasswordId"
+            android:layout_weight="4.8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:background="@drawable/edit_text_round"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/changePasswordId"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/button_round"
+        android:text="Change Password"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        />
+
+</LinearLayout>

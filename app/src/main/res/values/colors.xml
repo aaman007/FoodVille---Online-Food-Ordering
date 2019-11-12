@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabTextColor">#fff</color>
+    <color name="tabIndicatorColor">#2d2d2d</color>
+    <color name="textColor">#E0F7FA</color>
+    <color name="buttonColor">#994a0e</color>
+
+    <color name="yellow1">#F7CA18</color>
+    <color name="yellow2">#F5D76E</color>
+    <color name="yellow3">#F4D03F</color>
+
+    <color name="green1">#019875</color>
+    <color name="green2">#26A65B</color>
+    <color name="green3">#4ECDC4</color>
+    <color name="green4">#03C9A9</color>
+    <color name="green5">#1BA39C</color>
+    <color name="green6">#019875</color>
+
+    <color name="blue1">#1F3A93</color>
+    <color name="blue2">#013243</color>
+    <color name="blue3">#2574A9</color>
+
+    <color name="red1">#EC644B</color>
+    <color name="red">#ba4630</color>
+
+    <color name="black">#000000</color>
+
+    <color name="brown1">#96281B</color>
+    <color name="brown2">#674172</color>
+
+    <color name="purple1">#913D88</color>
+    <color name="purple2">#663399</color>
+    <color name="purple3">#674172</color>
+
+    <color name="gray1">#2C3E50</color>
+    <color name="gray2">#22313F</color>
+    <color name="gray3">#6C7A89</color>
+    <color name="gray4">#ECECEC</color>
+
+    <color name="orange1">#F89406</color>
+    <color name="orange2">#E87E04</color>
+    <color name="orange3">#F2784B</color>
+    <color name="orange4">#D35400</color>
+    <color name="orange5">#E87E04</color>
+    <color name="orange6">#F9690E</color>
+
+    <color name="pink1">#E08283</color>
+</resources>

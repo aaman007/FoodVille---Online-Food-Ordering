@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">FoodVille</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="soup_text">Soup</string>
+    <string name="appetizer_text">Appetizer</string>
+    <string name="rice_text">Rice</string>
+    <string name="chowmein_text">Chowmein</string>
+    <string name="fish_text">Fish</string>
+
+    <string name="username_text">Username</string>
+    <string name="email_text">E-Mail</string>
+    <string name="logIn_button_text">Log In</string>
+    <string name="register_button_text">Register</string>
+    <string name="password_text">Password</string>
+    <string name="confirm_password_text">Confirm Password</string>
+    <string name="button_1">Bangladesh</string>
+    <string name="button_2">India</string>
+    <string name="button_3">Pakistan</string>
+    <string name="alert_message">Do you want to exit ? </string>
+
+
+    <string name="header1">Who we are?</string>
+    <string name="header2">What we do?</string>
+    <string name="header3">Contact Us</string>
+    <string name="header1_text">
+        FoodVille is a new Online Food Ordering and Delivery Service launched in 2018 to deliver your cravings at your doorsteps. We are passionate
+        about food and are always prompt to whenever the radar blips hungry. Come rain, heat and storm our delivery team will be at
+        your doorsteps with a bright smile and holding the food you have been craving, intact through our insulated boxes!
+    </string>
+    <string name="header2_text">
+        We just don\'t want you hungry!\n
+        A hungry man is a angry man.\n
+        FoodVille gives you another reason to be stress-free in life. We don\'t want you to sweat in the kitchen to waste
+        your valuable passtime after a long week of work.\n
+        So here we are , helping you to find the best food available in Sylhet city.Every order will be delivered 60 minutes
+        after the order is taken.
+    </string>
+
+    <string name="footer">
+        Address : Ambarkhana,Sylhet\n
+        Phone   : +8801767869457\n
+        Email   : contact@foodville.com
+    </string>
+
+    <string name="confirmation_text">
+        Your Order is confirmed.It will be delivered within an hour.\n
+        For any kind of problem feel free to call us.\n
+        Thank you for choosing FoodVille.\n
+    </string>
+</resources>

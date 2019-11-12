@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MyAccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <!-- Logo -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/logoID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FoodVille"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <!-- Name Info -->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="7"
+                android:layout_height="35dp">
+                <TextView
+                    android:gravity="center|left"
+                    android:layout_weight="2.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Name : "
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+                <EditText
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:id="@+id/fullnameInfoId"
+                    android:layout_weight="4.8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Amanur Rahman"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_round"
+                    />
+            </LinearLayout>
+
+            <!-- Email Info -->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="7"
+                android:layout_height="35dp">
+                <TextView
+                    android:gravity="center|left"
+                    android:layout_weight="2.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Email : "
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+                <EditText
+                    android:focusable="false"
+
+                    android:inputType="text"
+                    android:id="@+id/emailInfoId"
+                    android:layout_weight="4.8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="aaman.sunny007@gmail.com"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_round"
+                    />
+            </LinearLayout>
+
+            <!-- DateOfBirth Info -->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="7"
+                android:layout_height="35dp">
+                <TextView
+                    android:gravity="center|left"
+                    android:layout_weight="2.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="D.O.Birth : "
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+                <EditText
+                    android:focusable="false"
+
+                    android:inputType="text"
+                    android:id="@+id/dateOfBirthInfoId"
+                    android:layout_weight="4.8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="21-04-1997"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_round"
+                    />
+            </LinearLayout>
+
+            <!-- Gender Info -->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="7"
+                android:layout_height="35dp">
+                <TextView
+                    android:gravity="center|left"
+                    android:layout_weight="2.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Gender : "
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+                <EditText
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:id="@+id/genderInfoId"
+                    android:layout_weight="4.8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Male"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_round"
+                    />
+            </LinearLayout>
+
+            <!-- Age Info -->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="7"
+                android:layout_height="35dp">
+                <TextView
+                    android:gravity="center|left"
+                    android:layout_weight="2.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Age : "
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+                <EditText
+                    android:focusable="false"
+                    android:inputType="number"
+                    android:id="@+id/ageInfoId"
+                    android:layout_weight="4.8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="21"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_round"
+                    />
+            </LinearLayout>
+
+            <!-- Phone Number Info -->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="7"
+                android:layout_height="35dp">
+                <TextView
+                    android:gravity="center|left"
+                    android:layout_weight="2.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Phone : "
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+                <EditText
+                    android:focusable="false"
+                    android:inputType="number"
+                    android:id="@+id/phoneInfoId"
+                    android:layout_weight="4.8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="01723167606"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_round"
+                    />
+            </LinearLayout>
+
+            <!-- Address Info -->
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="7"
+                android:layout_height="85dp">
+                <TextView
+                    android:gravity="center|left"
+                    android:layout_weight="2.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Address : "
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+                <EditText
+                    android:focusable="false"
+                    android:id="@+id/addressInfoId"
+                    android:layout_weight="4.8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Bondon B 27/3 , Khasdobir , Sylhet"
+                    android:gravity="center"
+                    android:background="@drawable/edit_text_round"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/updateDetailsId"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/button_round"
+                android:text="Update"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                android:textSize="23dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

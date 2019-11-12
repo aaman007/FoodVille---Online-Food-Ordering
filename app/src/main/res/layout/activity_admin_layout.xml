@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:orientation="vertical"
+    tools:context=".AdminLayout">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="ADMIN PANEL"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center"
+        />
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/addAdminButton"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_blue"
+        android:textColor="@color/textColor"
+        android:text="Add New Admin"
+        android:textSize="20sp"
+        />
+    <Button
+        android:textStyle="bold"
+
+        android:id="@+id/banUserButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_blue"
+        android:textColor="@color/textColor"
+        android:text="Ban a User"
+        android:textSize="20sp"
+        />
+    <Button
+        android:textStyle="bold"
+
+        android:id="@+id/addItemButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_blue"
+        android:textColor="@color/textColor"
+        android:text="Add New Food"
+        android:textSize="20sp"
+        />
+    <Button
+        android:textStyle="bold"
+
+        android:id="@+id/gotoAppButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_blue"
+        android:textColor="@color/textColor"
+        android:text="Goto App"
+        android:textSize="20sp"
+        />
+    <Button
+        android:textStyle="bold"
+
+        android:id="@+id/logOutButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_blue"
+        android:textColor="@color/textColor"
+        android:text="Log Out"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
