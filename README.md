@@ -1,5 +1,5 @@
 ## Foodville : An Online Food Ordering Service
-##### Duration : July 2018 - Aug 2018
+##### Duration : May 2018 - Aug 2018
 ### Project Aim :
 The aim of this project is to make people’s life easier by giving them their desired food items at their doorsteps . It tends to save people’s valuable pass-time that they get after long week of work.
 
